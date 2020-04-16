@@ -1,3 +1,7 @@
+## The following functions, when used together, will take a square, invertible matrix, calculate 
+## its inverse, and cache the inverse. Caching the matrix avoids having to recalculate the inverse
+## (a costly computation) if the inverse is called after the initial calculation.       
+
 ## makeCacheMatrix: This function creates a special "matrix" object that can cache its inverse.
 ## This function builds a set of functions and returns them in a list. These functions are 
 ## meant to be called by the 'cacheSolve'function in order to retrieve the input matrix, cache
